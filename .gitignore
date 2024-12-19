@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution / packaging
+data/
+outputs/
+logs/
+
+.env
+poetry.lock
+.lock
+
+# local config files
+conf/
+logs/
+outputs/
+
+# Virtual Environment
+.venv
+
+.DS_Store
+
+# local running files
+
+# Do not ignore .gitkeep
+
