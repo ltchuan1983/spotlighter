@@ -11,7 +11,14 @@ python = "^3.11"
 openai = "^1.57.2"
 python-dotenv = "^1.0.1"
 pandas = "^2.2.3"
+pymilvus = "^2.5.2"
 
+
+# Scripts
+hydra-core = "^1.3.2"
+requests = "^2.32.3"
+[tool.poetry.scripts]
+app = "src.main:run"
 
 [build-system]
 requires = ["poetry-core"]
